@@ -24,13 +24,13 @@ jobs:
       - name: 打包项目
         run: pnpm run build
 
-      - name: 上传到服务器（SFTP）
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
-          source: "dist/*"
-          target: ${{ secrets.REMOTE_DIR }}
-          overwrite: true
+      - name: 上传到服务器（SFTP-密码版）
+  uses: appleboy/scp-action@v0.1.7
+  with:
+    host: ${{ secrets.SSH_HOST }}
+    username: ${{ secrets.SSH_USER }}
+    password: ${{ secrets.SSH_PASSWORD }}
+    port: 22
+    source: "dist/*"
+    target: ${{ secrets.REMOTE_DIR }}
+    overwrite: true
