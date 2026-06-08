@@ -27,10 +27,10 @@ jobs:
       - name: 上传到服务器（SFTP）
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: 22
-          source: "dist/*"
-          target: ${{ secrets.REMOTE_DIR }}
-          overwrite: true
+          server: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ${{ secrets.REMOTE_DIR }}/
+          port: ${{ secrets.PORT }}
+          dangerous-clean-slate: false # 不删除服务器原有文件（更安全）
