@@ -1,0 +1,295 @@
+buttons:
+  pureLoginOut: LoginOut
+  pureLogin: Login
+  pureOpenSystemSet: Open System Configs
+  pureReload: Reload
+  pureCloseCurrentTab: Close CurrentTab
+  pureCloseLeftTabs: Close LeftTabs
+  pureCloseRightTabs: Close RightTabs
+  pureCloseOtherTabs: Close OtherTabs
+  pureCloseAllTabs: Close AllTabs
+  pureContentFullScreen: Content FullScreen
+  pureContentExitFullScreen: Content ExitFullScreen
+  pureClickCollapse: Collapse
+  pureClickExpand: Expand
+  pureConfirm: Confirm
+  pureSwitch: Switch
+  pureClose: Close
+  pureBackTop: BackTop
+  pureOpenText: Open
+  pureCloseText: Close
+search:
+  pureTotal: Total
+  pureHistory: History
+  pureCollect: Collect
+  pureDragSort: （Drag Sort）
+  pureEmpty: Empty
+  purePlaceholder: Search Menu
+panel:
+  pureSystemSet: System Configs
+  pureCloseSystemSet: Close System Configs
+  pureClearCacheAndToLogin: Clear cache and return to login page
+  pureClearCache: Clear Cache
+  pureOverallStyle: Overall Style
+  pureOverallStyleLight: Light
+  pureOverallStyleLightTip: Set sail freshly and light up the comfortable work interface
+  pureOverallStyleDark: Dark
+  pureOverallStyleDarkTip: Moonlight Overture, indulge in the tranquility and elegance of the night
+  pureOverallStyleSystem: Auto
+  pureOverallStyleSystemTip: Synchronize time, the interface naturally responds to morning and dusk
+  pureThemeColor: Theme Color
+  pureLayoutModel: Layout Model
+  pureVerticalTip: The menu on the left is familiar and friendly
+  pureHorizontalTip: Top menu, concise overview
+  pureMixTip: Mixed menu, flexible
+  pureStretch: Stretch Page
+  pureStretchFixed: Fixed
+  pureStretchFixedTip: Compact pages make it easy to find the information you need
+  pureStretchCustom: Custom
+  pureStretchCustomTip: Minimum 1280, maximum 1600
+  pureTagsStyle: Tags Style
+  pureTagsStyleSmart: Smart
+  pureTagsStyleSmartTip: Smart tags add fun and brilliance
+  pureTagsStyleCard: Card
+  pureTagsStyleCardTip: Card tags for efficient browsing
+  pureTagsStyleChrome: Chrome
+  pureTagsStyleChromeTip: Chrome style is classic and elegant
+  pureInterfaceDisplay: Interface Display
+  pureGreyModel: Grey Model
+  pureWeakModel: Weak Model
+  pureHiddenTags: Hidden Tags
+  pureHiddenFooter: Hidden Footer
+  pureMultiTagsCache: MultiTags Cache
+menus:
+  pureHome: Home
+  pureLogin: Login
+  pureAbnormal: Abnormal Page
+  purePageNotFound: "404"
+  pureAccessDenied: "403"
+  pureServerError: "500"
+  purePermission: Permission Manage
+  purePermissionPage: Page Permission
+  purePermissionButton: Button Permission
+  purePermissionButtonRouter: Route return button permission
+  purePermissionButtonLogin: Login interface return button permission
+status:
+  pureLoad: Loading...
+  pureMessage: Message
+  pureNotify: Notify
+  pureTodo: Todo
+  pureNoMessage: No Message
+  pureNoNotify: No Notify
+  pureNoTodo: No Todo
+login:
+  pureLoginTitle: 97 Information Admin Login System
+  pureUsername: Username
+  purePassword: Password
+  pureLogin: Login
+  pureLoginSuccess: Login Success
+  pureLoginFail: Login Fail
+  pureUsernameReg: Please enter username
+  purePassWordReg: Please enter password
+  purePassWordRuleReg: The password format should be any combination of 8-18 digits
+sourceText:
+  "首页": "Home"
+  "登录": "Login"
+  "退出系统": "Log Out"
+  "基础设置": "Basic Settings"
+  "站点设置": "Site Settings"
+  "SEO设置": "SEO Settings"
+  "数据设置": "Data Settings"
+  "账号设置": "Account Settings"
+  "广告中心": "Ad Center"
+  "分类列表": "Category List"
+  "添加分类": "Add Category"
+  "广告列表": "Ad List"
+  "添加广告": "Add Ad"
+  "模块管理": "Module Management"
+  "创建新模块": "Create Module"
+  "模块列表": "Module List"
+  "内容列表": "Content List"
+  "添加内容": "Add Content"
+  "编辑分类": "Edit Category"
+  "编辑广告": "Edit Ad"
+  "编辑内容": "Edit Content"
+  "产品中心": "Product Center"
+  "新闻中心": "News Center"
+  "关于我们": "About Us"
+  "联系我们": "Contact Us"
+  "产品": "Product"
+  "新闻": "News"
+  "模块": "Module"
+  "列表模块": "List Module"
+  "文本模块": "Text Module"
+  "模块类型": "Module Type"
+  "模块名称": "Module Name"
+  "模块短名称": "Module Short Name"
+  "模块短称": "Module Short Name"
+  "模块代码": "Module Code"
+  "默认跳转": "Default URL"
+  "是否使用模板": "Use Template"
+  "选择模板": "Select Template"
+  "创建模块": "Create Module"
+  "重置": "Reset"
+  "例如：产品中心": "Example: Product Center"
+  "例如：产品": "Example: Product"
+  "仅支持英文小写": "Lowercase English letters only"
+  "请在前台 /public/module/ 目录放置": "Place"
+  ".html（列表页）和": ".html (list page) and"
+  "_detail.html（详情页）模板文件": "_detail.html (detail page) template files"
+  ".html 模板文件": ".html template file"
+  "分类名称": "Category Name"
+  "分类标识": "Category Code"
+  "分类唯一标识代码": "Category Unique Code"
+  "随机生成": "Random"
+  "状态": "Status"
+  "启用": "Enabled"
+  "禁用": "Disabled"
+  "保存修改": "Save Changes"
+  "确定添加": "Confirm Add"
+  "确定提交": "Submit"
+  "所属分类": "Category"
+  "上传图片": "Upload Image"
+  "跳转链接": "Link"
+  "排序": "Sort"
+  "预览图": "Preview"
+  "尺寸": "Size"
+  "操作": "Actions"
+  "编辑": "Edit"
+  "删除": "Delete"
+  "刷新": "Refresh"
+  "删除选中": "Delete Selected"
+  "更改排序": "Edit Sort"
+  "提交排序": "Submit Sort"
+  "复制": "Copy"
+  "预览": "Preview"
+  "暂无图片": "No Image"
+  "暂无链接": "No Link"
+  "暂无尺寸": "No Size"
+  "读取中": "Loading"
+  "读取失败": "Failed"
+  "内容数量": "Content Count"
+  "广告数目": "Ad Count"
+  "标题": "Title"
+  "关键字": "Keywords"
+  "描述": "Description"
+  "基本信息": "Basic Info"
+  "内容标题": "Content Title"
+  "内容图片": "Content Image"
+  "上传视频": "Upload Video"
+  "选择文件": "Select File"
+  "添加关键字": "Add Keyword"
+  "添加单行文本": "Add Single-line Text"
+  "添加多行文本": "Add Multi-line Text"
+  "添加上传图片": "Add Image Upload"
+  "添加上传视频": "Add Video Upload"
+  "添加上传文件": "Add File Upload"
+  "发布设置": "Publish Settings"
+  "定时发布": "Scheduled Publish"
+  "网站名称": "Site Name"
+  "网站地址": "Site URL"
+  "网站图标": "Site Icon"
+  "技术支持": "Technical Support"
+  "选择语言": "Language"
+  "网站图标预览": "Site Icon Preview"
+  "图片预览": "Image Preview"
+  "图片大小：": "Image size:"
+  "图片尺寸：": "Image dimensions:"
+  "图片尺寸：读取中": "Image dimensions: loading"
+  "前台 favicon 图标，仅支持": "Frontend favicon icon, supports only"
+  "格式，最大不超过": "formats, max"
+  "不限制尺寸": "no size limit"
+  "中文": "Chinese"
+  "英文": "English"
+  "俄语": "Russian"
+  "数据库文件下载": "Download Database File"
+  "修改账号密码": "Change Account Password"
+  "账号权限分配": "Account Permission Assignment"
+  "超级管理员": "Super Admin"
+  "普通管理员": "Admin"
+  "admin 普通管理员": "admin Admin"
+  "账号": "Account"
+  "密码": "Password"
+  "分配账号": "Assign Account"
+  "权限配置": "Permission Settings"
+  "菜单": "Menu"
+  "查看": "View"
+  "新增": "Create"
+  "一级菜单": "Level 1 Menu"
+  "二级菜单": "Level 2 Menu"
+  "账号状态": "Account Status"
+  "修改权限配置": "Change Permission Settings"
+  "请输入网站名称": "Please enter site name"
+  "请输入网站域名": "Please enter site domain"
+  "请输入技术支持": "Please enter technical support"
+  "请输入网站标题": "Please enter site title"
+  "请输入网站描述": "Please enter site description"
+  "请选择模板": "Please select a template"
+  "请选择所属分类": "Please select a category"
+  "请输入内容标题": "Please enter content title"
+  "请输入广告分类名称": "Please enter ad category name"
+  "请输入分类标识": "Please enter category code"
+  "请输入广告分类唯一标识代码": "Please enter ad category unique code"
+  "请输入广告跳转链接": "Please enter ad link"
+  "请填写模块名称": "Please enter module name"
+  "请填写模块短名称": "Please enter module short name"
+  "请填写模块代码": "Please enter module code"
+  "请先输入分类名称": "Please enter category name first"
+  "请上传图片": "Please upload an image"
+  "请输入 master 账号": "Please enter master account"
+  "请输入 master 密码": "Please enter master password"
+  "请输入 admin 账号": "Please enter admin account"
+  "请输入 admin 密码": "Please enter admin password"
+  "分类标识已存在，请重新输入": "Category code already exists, please enter another"
+  "该模块路由已存在": "This module route already exists"
+  "文件大小不能超过 10KB": "File size cannot exceed 10KB"
+  "仅支持 .ico、.png、.svg 格式": "Only .ico, .png, and .svg formats are supported"
+  "排序必须是大于 0 的整数": "Sort must be an integer greater than 0"
+  "排序未发生变化": "Sort has not changed"
+  "排序提交成功": "Sort submitted"
+  "排序提交失败，请稍后重试": "Sort submission failed, please try again later"
+  "删除确认": "Delete Confirmation"
+  "删除成功": "Deleted"
+  "刷新成功": "Refreshed"
+  "复制成功": "Copied"
+  "复制失败": "Copy failed"
+  "创建模块成功": "Module created"
+  "保存成功": "Saved"
+  "添加成功": "Added"
+  "修改成功": "Updated"
+  "提交成功": "Submitted"
+  "确定": "Confirm"
+  "取消": "Cancel"
+  "内部开发管理系统": "Internal Development Management System"
+  "内部系统控制台": "Internal System Console"
+  "九七信息科技有限公司": "97 Information Technology Co., Ltd."
+  "面向内部开发与运营维护的统一控制台，覆盖基础设置、广告管理、模块生成与内容配置。": "A unified console for internal development and operations, covering basic settings, ad management, module generation, and content configuration."
+  "常用入口": "Quick Access"
+  "今日关注": "Today's Focus"
+  "系统概览": "System Overview"
+  "系统状态": "System Status"
+  "运行中": "Running"
+  "数据配置": "Data Configuration"
+  "本地就绪": "Local Ready"
+  "开发规范": "Development Standard"
+  "类型校验": "Type Check"
+  "生成业务模块入口与基础路由": "Generate business module entry and base routes"
+  "查看已创建模块与访问地址": "View created modules and access URLs"
+  "维护广告分类、图片与跳转链接": "Maintain ad categories, images, and links"
+  "配置站点名称、图标与基础信息": "Configure site name, icon, and basic information"
+  "站点基础配置保持完整": "Keep site base configuration complete"
+  "广告素材上线前完成预览": "Preview ad assets before publishing"
+  "新增模块先确认短称与标识": "Confirm short name and code before adding modules"
+  "关键改动提交前执行类型检查": "Run type checks before submitting key changes"
+  "抱歉，你无权访问该页面": "Sorry, you do not have access to this page"
+  "抱歉，你访问的页面不存在": "Sorry, the page you visited does not exist"
+  "抱歉，服务器出错了": "Sorry, the server encountered an error"
+  "返回首页": "Back Home"
+  "简体中文": "Simplified Chinese"
+  "星期一": "Monday"
+  "星期二": "Tuesday"
+  "星期三": "Wednesday"
+  "星期四": "Thursday"
+  "星期五": "Friday"
+  "星期六": "Saturday"
+  "星期日": "Sunday"
